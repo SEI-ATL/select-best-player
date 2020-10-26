@@ -1,4 +1,4 @@
-nba = [
+const nba = [
   {
     lebron: 'LeBron James',
     ad: 'Anthony Davis'
