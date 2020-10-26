@@ -19,7 +19,8 @@ function selectBestPlayer(sport) {
 
   for (let i = 0; i < sport.length; i++) {
     let team = sport[i];
-    console.log(`The team is : ${team}`);
+    console.log(`The current team has the following:`);
+    console.log(team);
 
     if (team.harden) {
       console.log('James Harden was selected');
@@ -42,3 +43,5 @@ function selectBestPlayer(sport) {
 }
 
 console.log(selectBestPlayer(nba));
+// Output
+// > [ 'LeBron James', 'Anthony Davis', 'Damien Lillard', 'James Harden' ]
